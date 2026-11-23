@@ -1,0 +1,22 @@
+[2026-11-22 22:32:28] [EVENTO] === INICIO DE SIMULACIÓN DEL SISTEMA SOFTWARE FJ ===
+[2026-11-22 22:32:28] [INFO] Cliente registrado: Cliente [CLI-01] Ana Gómez | Doc: 10203040 | Correo: ana.gomez@correo.com
+[2026-11-22 22:32:28] [INFO] Cliente registrado: Cliente [CLI-02] Carlos Ruiz | Doc: 98765432 | Correo: carlos.ruiz@empresa.co
+[2026-11-22 22:32:28] [ERROR] Registro de cliente fallido (CLI-03): El correo 'pedro_sin_arroba.com' no tiene un formato válido.
+[2026-11-22 22:32:28] [ERROR] Registro de cliente fallido (CLI-04): El nombre del cliente es obligatorio.
+[2026-11-22 22:32:28] [INFO] Servicio registrado: Sala 'Sala Ejecutiva A' | Tarifa/h: $80,000.00 | Capacidad: 12 personas | Proyector: Sí
+[2026-11-22 22:32:28] [INFO] Servicio registrado: Alquiler 'Pack Portátiles Pro' (Laptop i7) | Tarifa/día: $45,000.00 | Cantidad: 3 und.
+[2026-11-22 22:32:28] [INFO] Servicio registrado: Asesoría 'Auditoría Seguridad' | Área: Ciberseguridad | Modalidad: Presencial | Tarifa/h: $120,000.00
+[2026-11-22 22:32:28] [ERROR] Creación de servicio fallida (SRV-04): La tarifa base (-50000) debe ser un número mayor que cero.
+[2026-11-22 22:32:28] [INFO] Reserva RES-01 procesada con éxito. Total: $309,400.00
+[2026-11-22 22:32:28] [EVENTO] Intento de procesamiento finalizado para reserva RES-01.
+[2026-11-22 22:32:28] [INFO] Reserva RES-01 CONFIRMADA para Ana Gómez.
+[2026-11-22 22:32:28] [INFO] Reserva RES-02 procesada con éxito. Total: $289,170.00
+[2026-11-22 22:32:28] [EVENTO] Intento de procesamiento finalizado para reserva RES-02.
+[2026-11-22 22:32:28] [INFO] Reserva RES-02 CONFIRMADA para Carlos Ruiz.
+[2026-11-22 22:32:28] [INFO] Reserva RES-02 CANCELADA.
+[2026-11-22 22:32:28] [ERROR] Fallo en reserva RES-03: El servicio 'Auditoría Seguridad' no está disponible actualmente.
+[2026-11-22 22:32:28] [ERROR] Fallo al procesar reserva RES-04: El descuento (150%) debe estar entre 0% y 100%.
+[2026-11-22 22:32:28] [EVENTO] Intento de procesamiento finalizado para reserva RES-04.
+[2026-11-22 22:32:28] [ERROR] Fallo en reserva RES-04: No fue posible procesar la reserva RES-04. (Causa: El descuento (150%) debe estar entre 0% y 100%.)
+[2026-11-22 22:32:28] [ERROR] Operación no permitida detectada: La reserva RES-02 está cancelada y no puede confirmarse.
+[2026-11-22 22:32:28] [EVENTO] === FIN DE SIMULACIÓN DEL SISTEMA SOFTWARE FJ ===
